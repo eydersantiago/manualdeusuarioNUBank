@@ -1,8 +1,9 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renderiza el hero y la navegación principal', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  expect(screen.getByText(/manual interactivo · react \+ django/i)).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /iniciar recorrido guiado/i })).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /módulos/i })).toBeInTheDocument();
 });

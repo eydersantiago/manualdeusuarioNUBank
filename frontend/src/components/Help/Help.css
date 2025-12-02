@@ -1,0 +1,42 @@
+.help {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.faq,
+.tutorials {
+  background: #0b1324;
+  border: 1px solid #243155;
+  border-radius: 16px;
+  padding: 1.25rem;
+  color: #e2e8f0;
+}
+
+.faq details,
+.tutorials ul li {
+  background: #111c33;
+  border: 1px solid #243155;
+  border-radius: 12px;
+  padding: 0.8rem;
+  margin-top: 0.65rem;
+}
+
+.tutorials ul {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.tutorials ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.callout {
+  margin-top: 0.9rem;
+  background: #1d294a;
+  border-radius: 12px;
+  padding: 0.9rem;
+  color: #e0e7ff;
+}
