@@ -1,5 +1,11 @@
 import { useMemo, useState } from 'react';
 import './App.css';
+import Navigation from './components/Navigation/Navigation';
+import HelpPage from './components/HelpPage/HelpPage';
+import Home from './components/Home/Home';
+import ModulesPage from './components/ModulesPage/ModulesPage';
+import SupportPage from './components/SupportPage/SupportPage';
+import UseCasesPage from './components/UseCasesPage/UseCasesPage';
 
 const modules = [
   {

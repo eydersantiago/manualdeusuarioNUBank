@@ -1,0 +1,14 @@
+.support {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.card ul,
+.card ol {
+  margin-top: 0.7rem;
+  padding-left: 1.1rem;
+  color: #cbd5e1;
+  display: grid;
+  gap: 0.35rem;
+}

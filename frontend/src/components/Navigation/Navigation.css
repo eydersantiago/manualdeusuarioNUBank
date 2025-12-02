@@ -1,0 +1,35 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #0f172a;
+  border-bottom: 1px solid #243155;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.nav__brand {
+  color: #e0e7ff;
+  font-weight: 700;
+}
+
+.nav__links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav__links a {
+  color: #cbd5e1;
+  text-decoration: none;
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.nav__links a:hover,
+.nav__links a.active {
+  background: #1d294a;
+  color: #fff;
+}
